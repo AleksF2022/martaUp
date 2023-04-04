@@ -1,0 +1,65 @@
+*, *::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menu__list {
+  display: flex;
+  gap: 0 50px;
+}
+
+.menu__list-link {
+  text-transform: uppercase;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.menu__list-link:hover {
+  opacity: 1;
+}
+
+.header__btn {
+  display: flex;
+  gap: 0 44px;
+  text-transform: uppercase;
+}
+
+.sign-up {
+  color: #250f8a;
+  background-color: #fff;
+  padding: 8px 43px;
+  border-radius: 20px;
+}
