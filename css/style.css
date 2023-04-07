@@ -117,6 +117,7 @@ a {
   right: 0;
   top: 50%;
 }
+
 .header-dots button {
   border-style: none;
   background-color: #fff;
@@ -131,6 +132,7 @@ a {
   display: block;
   margin: 10px auto;
 }
+
 .header-dots .slick-active button {
   width: 15px;
   opacity: 1;
@@ -151,12 +153,14 @@ a {
 .specialised__title {
   margin-bottom: 96px;
 }
+
 .title {
   line-height: 45px;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
 }
+
 .specialised__items {
   display: flex;
   /* justify-content: center;
@@ -165,17 +169,21 @@ a {
   max-width: 980px;
   margin: 0 auto;
 }
+
 .specialised__item {
   max-width: 280px;
 }
+
 .specialised__item-img {
   margin-bottom: 23px;
 }
+
 .specialised__item-title {
   margin-bottom: 11px;
   font-size: 20px;
   font-weight: bold;
 }
+
 .specialised__item-text {
   padding: 0 10px;
   color: #272727;
@@ -197,9 +205,11 @@ a {
   justify-content: space-between;
   padding-bottom: 76px;
 }
+
 .advantages-box--right .advantages-box__info {
   order: 1;
 }
+
 .advantages-box__info {
   max-width: 455px;
   padding-top: 60px;
@@ -207,6 +217,7 @@ a {
   background-repeat: no-repeat;
   background-position: 22px 76px;
 }
+
 .advantages-box__title {
   color: #202020;
   font-size: 35px;
@@ -214,12 +225,96 @@ a {
   font-weight: bold;
   padding: 68px 0 15px 48px;
 }
+
 .advantages-box__text {
   padding-left: 48px;
   color: #272727;
 }
+
 .advantages-box__text p {
   margin: 10px 0;
 }
-.advantages-box__images {
+
+.advantages-box__images {}
+
+/* * ====== REVIEWS ======== */
+
+.reviews {
+  background-image: url('../images/reviews-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 38px 0 82px;
+}
+
+
+.reviews__title {
+  color: #fff;
+  max-width: 384px;
+  margin: 0 auto 48px;
+}
+
+.reviews__items {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__item {
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .2);
+  padding: 35px 20px;
+  color: #fff;
+}
+
+.reviews__item-head {
+  margin-bottom: 13px;
+  display: flex;
+}
+
+.reviews__item-head img {
+  margin-right: 20px;
+}
+
+.reviews__item-name {
+  font-weight: 600;
+}
+
+.reviews__item-position {
+  opacity: 0.5;
+}
+
+.reviews__item-text {
+  text-align: center;
+  padding-top: 39px;
+  position: relative;
+}
+
+.reviews__item-text::before {
+  content: '\201C';
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* *===== FOOTER =======*/
+
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: #272727;
+  padding: 0 20px;
+}
+
+.footer__links a+a {
+  margin-left: 20px;
 }
